@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Archit's Website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <script src="portfolio.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Archit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#1-sec">Home</a></li>
+                    <li><a href="#3-sec">About</a></li>
+                    <li><a href="#2-sec">Projects</a></li>
+                    <li><a href="#4-sec">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="1-sec" class="firstSection">
+            <div class="leftsec">
+                Hello, My name is <span class="color">Archit Vashishth</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+                <div class="btns">
+                    <button id="resume"><a href="git hub link">Download Resume</a></button>
+                    <button><a href="git hub link">Visit Github</a></button>
+                </div>
+            </div>
+            <div class="rightsec"><img src="web-dev.png" alt="webdev image"></div>
+        </section>
+        <hr>
+        <section class="secondSection" id="2-sec">
+            <h1>Projects</h1>
+            <div class="proj-topic">Hotel Record Management System</div>
+            <div class="proj-desc">In this project we can book hotel and we can select how many room we want and we can
+                select different facilities in it like what services we want like breakfast lunch and dinner and what
+                food we want in these.
+                <div>The database management in this is implemented on binary file using pickle module in python<div>
+                        <div class="proj-link">Link of the proj &rarr; "Github link"</div>
+                    </div>
+        </section>
+        <hr>
+        <section id="3-sec" class="thirdSection">
+            <h1>About</h1>
+            <div class="desc-about">
+                <div class="academic">10th
+                    <div>12th</div>
+                    <div>college</div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="4-sec" class="fourthSection">
+            <h1>Contact Me</h1>
+            <div id="email">Email ID &rarr;archivashishth@gmail.com</div>
+            <div class="contact">LinkedIn Id &rarr; archivashishth@gmail.com</div>
+        </section>
+        <footer>
+            <div class="flex">
+                <div class="first">Archit's Developer Portfolio</div>
+                <div class="second">
+                    <ul>
+                        <li><a href="#1-sec">Home</a></li>
+                        <li><a href="#3-sec">About</a></li>
+                        <li><a href="#2-sec">Projects</a></li>
+                        <li><a href="#4-sec">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="third">
+                    <ul>
+                        <li><a href="#1-sec">Home</a></li>
+                        <li><a href="#3-sec">About</a></li>
+                        <li><a href="#2-sec">Projects</a></li>
+                        <li><a href="#4-sec">Contact Me</a></li>
+                    </ul>
+                </div>
+                <div class="fourth">
+                    <ul>
+                        <li><a href="#1-sec">Home</a></li>
+                        <li><a href="#3-sec">About</a></li>
+                        <li><a href="#2-sec">Projects</a></li>
+                        <li><a href="#4-sec">Contact Me</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text">Copyrights &copy; architportfolio.com | All Rights Reserved</div>
+        </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', 'Coder', 'Gamer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

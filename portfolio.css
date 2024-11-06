@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #150734;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+header{
+    /* position: sticky; */
+    /* top: 0px; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #321474;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 0px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(117, 117, 228);
+    font-size: 1.02rem;
+}
+nav .left{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px;
+}
+
+.firstSection > div{
+    width: 35%;
+}
+.leftsec{
+    font-size: 2.5rem;
+}
+
+.rightsec img{
+    width: 100%;
+}
+.color{
+    color: rgb(115, 70, 237);
+}
+#element{
+    color: rgb(115, 70, 237);
+}
+.secondSection{
+    max-width: 80%;
+    margin: auto;
+}
+hr{
+    border: 0;
+    background:rgb(116, 77, 195);
+    height: 2px;
+    margin: 40px 80px;
+}
+.secondSection h1{
+    font-size: 2rem;
+}
+.secondSection .proj-link{
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 10px 0;
+}
+.proj-topic{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 10px 0;
+    margin: 20px 0px;
+}
+.btns button{
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    background-color: #402870;
+    font-size: 1.05rem;
+    border:2px solid white;
+    color: white;
+}
+.btns button:hover{
+    height: 42px;
+    width: 122px;
+    border-radius: 5px;
+    background-color: #31224b; 
+    font-size: 1.1rem;
+    color: white;
+}
+
+.btns #resume{
+    width: 200px;
+}
+.btns{
+    padding: 20px 0;
+}
+.btns a{
+    text-decoration: none;
+    color: white;
+}
+.thirdSection{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.thirdSection h1{
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+.fourthSection{
+    max-width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+}
+.fourthSection > div{
+    padding: 10px 0px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.fourthSection h1{
+    font-size: 2rem;
+    padding: 20px 0px;
+}
+
+footer{
+    height: 15vh;
+    background-color: #100425;
+    padding: 50px;
+    font-size: 1.1rem;
+}
+footer .flex{
+    display: flex;
+    justify-content: space-around;
+}
+footer .flex div ul li{
+    list-style-type: none;
+}
+footer .text{
+    color: gray;
+    text-align: center;
+    padding: 20px 0px;
+}
+footer .flex ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    
+}
+
+@media screen and (max-width:485px){
+    .leftsec{
+        font-size: inherit;
+        
+    }
+    nav{
+        width: 100vw;
+        
+    }
+    .rightsec img{
+        position:sticky;
+        width: 30vw;
+        padding-bottom: 20vh;
+
+    }
+    .right{
+        width: 40vw;
+        visibility: hidden;
+    }
+    
+}

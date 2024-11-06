@@ -1,0 +1,62 @@
+#countlabel{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+}
+
+.content{
+    margin-top:5vh ;
+}
+h1{
+    font-size: 4rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+input{
+    height: 4vh;
+    width: 15vw;
+    border-radius:10px;
+    border-color: none;
+}
+
+label{
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: white;
+}
+
+button{
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: rgb(98, 140, 200);
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: none;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color: black;
+}   
+
+button:hover{
+    background-color:aqua;
+    size: 2em;
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.mainContent{
+    padding: 6vh 0vw 14vh 0vw;
+    margin: 5vh 5vw;
+    border: 2px;
+    border-radius: 20px;
+    border-color: none;
+    height: 70vh;
+    width: 90vw;
+    background-color: hsla(0, 3%, 13%, 0.872);
+    text-align: center;
+}
